@@ -1,4 +1,8 @@
 # Maven
+- task: KubernetesManifest@0
+  inputs:
+    action: 'deploy'
+    kubernetesServiceConnection: 'test environment-myAKS01-default-1630659647787'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
